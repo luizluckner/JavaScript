@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu exercício</title>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <input type="number" name="txtn1" id="txtn1">
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="Enviar" onclick="calcular()">
+    <p></p>
+    <script>
+        function calcular() {
+            var txv1 = document.querySelector('#txtn1')
+            var txv2 = document.querySelector('#txtn2')
+            var n1 = Number(txv1.value)
+            var n2 = Number(txv2.value)
+            var res = n1 + n2
+            document.querySelector('p').innerHTML = `${res}`
+        }
+    </script>
+</body>
+</html>
