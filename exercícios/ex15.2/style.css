@@ -1,0 +1,22 @@
+body {
+    background-color: lightskyblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    padding: 16px 24px;
+    width: 400px;
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: 24px;
+    text-align: center;
+}
